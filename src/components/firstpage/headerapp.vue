@@ -48,9 +48,13 @@ import Footer from './Footer.vue'
 <style scoped lang="scss"> 
 .respbg{
     opacity: 0;
+        width: 100%;
+    height: 100%;
 }
 .background{
     position: fixed;
+        width: 100%;
+    height: 100%;
 }
 *{
     margin: 0 0;
@@ -237,6 +241,8 @@ import Footer from './Footer.vue'
     .respbg{
          opacity: 1;
         position: fixed;
+            width: 100%;
+    height: 100%;
     }
     
   .invitation__info {

@@ -9,6 +9,7 @@
         <p>{{$t('dresscodeText')}}</p>
     </div>
     <div class="dresscode__colors">
+        <div>
         <div class="dresscode__colors--green">
 
         </div>
@@ -24,6 +25,8 @@
         <div class="dresscode__colors--lightpink">
 
         </div>
+        </div>
+        <div>
         <div class="dresscode__colors--darkblue">
 
         </div>
@@ -32,6 +35,7 @@
         </div>
         <div class="dresscode__colors--gray">
 
+        </div>
         </div>
     </div>
     <div class="dresscode__examples">
@@ -102,8 +106,15 @@
             height: 55px;
         }
         display: flex;
-        column-gap: 20px;
-        & div{
+    column-gap: 20px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    row-gap: 10px;
+        &>div{
+            display: flex;
+        }
+        &>div div{
             width: 50px;
             height: 50px;
             border-radius: 50%;
@@ -174,10 +185,6 @@
             height: 240px;
         }
     }
-    .dresscode__colors{
-        display: grid;
-        grid-template-rows: auto auto;
-        grid-template-columns: auto auto auto auto auto;
-    }
+    
 }
 </style>
