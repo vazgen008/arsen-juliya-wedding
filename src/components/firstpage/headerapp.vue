@@ -92,7 +92,7 @@ import Footer from './Footer.vue'
     }
     }
     & .language{
-            width: 78px;
+            width: 108px;
             height: 23px;
             text-transform: uppercase;
             border-width: 1px;
