@@ -111,8 +111,11 @@
     align-content: center;
     align-items: center;
     row-gap: 10px;
-        &>div{
+
+&>div{
             display: flex;
+    column-gap: 10px;
+
         }
         &>div div{
             width: 50px;
