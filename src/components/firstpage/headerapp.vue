@@ -67,6 +67,7 @@ import Footer from './Footer.vue'
     height: auto;
     z-index: 10;
     position: absolute;
+    top: 0;
     &--info{
         height: 700px;
         background: none;
