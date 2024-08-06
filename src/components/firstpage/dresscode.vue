@@ -165,7 +165,7 @@
 }
 @media only screen and (min-width: 375px) and (max-width: 600px) {
     .dresscode__text {
-        width: 300px;
+        width: 370px;
         height: 180px;
         background: rgba(255, 255, 255, 0.3);
         font-size: 18px;
